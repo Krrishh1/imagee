@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap"rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Search Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="dark-toggle" id="toggle-dark">Dark Mode</button>
+
+  <div class="header-container">
+    <img src="logo.png" alt="App Logo">
+    <h1>Search, See, Save – All in a Wave</h1>
+    <form>
+      <input type="text" id="search-input" placeholder="Search for images..." autocomplete="off" />
+      <button id="search-button" type="submit">Search</button>
+    </form>
+  </div>
+
+  <h4>Example Images</h4>
+  <div class="search-results"></div>
+
+  <button id="show-more-button">Show more</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
